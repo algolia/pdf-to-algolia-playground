@@ -1,0 +1,15 @@
+{
+    "name": "algolia/pdf-to-algolia-playground",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Rutjes",
+            "email": "raymond.rutjes@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    }
+}
