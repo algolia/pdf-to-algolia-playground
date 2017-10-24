@@ -11,3 +11,13 @@ All examples expect you to have a running [Apache tika Docker container](https:/
 docker pull logicalspark/docker-tikaserver
 docker run -d -p 9998:9998 logicalspark/docker-tikaserver
 ```
+
+## PHP
+
+### Extract Algolia records from PDF
+
+```bash
+cd php
+composer install
+php single.php
+```
