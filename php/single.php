@@ -52,6 +52,7 @@ $records = [];
 foreach ($contentChunks as $index => $chunk) {
     $records[] = [
         'objectID' => $filename . '-' . $index,
+        'filename' => $filename,
         'title' => $title,
         'content' => $chunk,
     ];
